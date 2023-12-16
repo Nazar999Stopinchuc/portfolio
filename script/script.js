@@ -4,7 +4,7 @@
 $(function () {
 
   let $page = $('html, body');
-  $('.menu__link, .logo').click(function () {
+  $('.menu__link, .logo, .header__scrol').click(function () {
     $page.animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 800);
